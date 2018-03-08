@@ -1,14 +1,22 @@
+body {
+    margin: 0px;
+    background-color: #59676a;
+}
+
 /* Style the header with a grey background and some padding */
+
 .header {
+
+
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #474448;
   padding: 20px 10px;
 }
 
 /* Style the header links */
 .header a {
   float: left;
-  color: black;
+  color: #d0d1cf;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -19,9 +27,10 @@
 
 .logo_container{
   position:absolute;
+  left: 25px;
 }
 #logo_3{
-  width: 100px;
+  width: 110px;
   height: auto;
 }
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -38,7 +47,7 @@
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #ad272a;
   color: white;
 }
 
